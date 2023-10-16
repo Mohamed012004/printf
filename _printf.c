@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 
 	va_start(ap, format);
 
-	if (!format || (format[0] == '%' && !format[1])
+	if (!format || (format[0] == '%' && !format[1]))
 		return (-1);
 	if (format[0] == '%' && format[1] == ' ' && !format[2])
 		return (-1);
@@ -35,7 +35,7 @@ int _printf(const char *format, ...)
 		}
 		p = get_width(p, &params, ap);
 		p = get_precision(p, &params, ap);
-		if get_modifier(p, &params);
+		if (get_modifier(p, &params));
 			p++;
 		if (!get_specifier(p))
 			sum += print_from_to(start, p, params.1_modifier ||
