@@ -2,10 +2,10 @@
 
 /**
  * convert - converter function, a clone of itoa
- * @num: number
- * @base: base
- * @flags: argument flags
- * @params: parameter struct
+ * @num: number.
+ * @base: base.
+ * @flags: argument flags.
+ * @params: parameter struct.
  *
  * Return: string
  */
@@ -38,7 +38,7 @@ char *convert(long int num, int base, int flags, params_t *params)
 
 /**
  * print_adress - prints address
- * @ap: the argument pointer
+ * @ap: the argument pointer.
  * @params: the parameter struct
  *
  * Return: bytes printed
