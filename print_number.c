@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if character is digits
- * @c: the character to check
+ * _isdigit - checks if character is digits.
+ * @c: the character to check.
  *
- * Return: 1 if digit, 0 otherwise
+ * Return: 1 if digit, 0 otherwise.
  */
 int _isdigit(int c)
 {
@@ -12,10 +12,10 @@ int _isdigit(int c)
 }
 
 /**
- * _strlen - gets the length of a string
- * @s: the input string
+ * _strlen - gets the length of a string.
+ * @s: the input string.
  *
- * Return: int(length of string)
+ * Return: int(length of string).
  */
 int _strlen(char *s)
 {
