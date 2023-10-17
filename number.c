@@ -35,4 +35,3 @@ char *convert(long int num, int base, int flags, params_t *params)
 		*--ptr = sign;
 	return (ptr);
 }
-
