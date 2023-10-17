@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_char - prints character.
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_char - prints character
+ * @ap: argument pointer.
+ * @params: the parameters struct.
  *
- * Return: number chars printed
+ * Return: number chars printed.
  */
 int print_char(va_list ap, params_t *params)
 {
@@ -22,11 +22,11 @@ int print_char(va_list ap, params_t *params)
 }
 
 /**
- * print_int - prints integer.
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_int - prints integer
+ * @ap: argument pointer.
+ * @params: the parameters struct.
  *
- * Return: number digits printed
+ * Return: number digits printed.
  */
 
 int print_int(va_list ap, params_t *params)
@@ -42,11 +42,11 @@ int print_int(va_list ap, params_t *params)
 	return (print_number(convert(l, 10, 0, params), params));
 }
 /**
- * print_string - prints string
- * @ap:argument pointer
- * @params: the parameters struct
+ * print_string - prints string.
+ * @ap:argument pointer.
+ * @params: the parameters struct.
  *
- * Return: number chars printed
+ * Return: number chars printed.
  */
 int print_string(va_list ap, params_t *params)
 {
