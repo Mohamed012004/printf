@@ -15,6 +15,10 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
 		{"s", print_string},
 		{"%", print_percent},
 		{"b", print_binary},
+		{"o", print_octal},
+		{"u", print_unsigned},
+		{"x", print_hex},
+		{"X", print_HEX},
 		{"p", print_adress},
 		{"S", print_S},
 		{NULL, NULL}
