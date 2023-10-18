@@ -24,7 +24,7 @@ int print_binary(va_list ap, params_t *params)
  * @ap: the argument pointer
  * @params: the parameters struct
  *
- * Return:bytes printed
+ * Return: bytes printed
  */
 int print_hex(va_list ap, params_t *params)
 {
@@ -54,7 +54,7 @@ int print_hex(va_list ap, params_t *params)
  * @ap: the argument pointer
  * @params: the parameters struct
  *
- * Return:bytes printed
+ * Return: bytes printed
  */
 int print_HEX(va_list ap, params_t *params)
 {
